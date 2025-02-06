@@ -1,0 +1,16 @@
+#include<iostream>
+using namespace std;
+
+//declaration
+float CylinderVolume(int h, int r);
+
+
+int main() {
+	cout<<CylinderVolume(5, 10);
+
+}
+
+//definition
+float CylinderVolume(int h, int r) {
+	return 3.14 * r * r * h;
+}
